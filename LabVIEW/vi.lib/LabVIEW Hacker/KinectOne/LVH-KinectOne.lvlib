@@ -5,15 +5,15 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Examples" Type="Folder">
-		<Item Name="Acquire Body Index Image.vi" Type="VI" URL="../Examples/Acquire Body Index Image.vi"/>
-		<Item Name="Acquire Color Image with Skeletal Mapping.vi" Type="VI" URL="../Examples/Acquire Color Image with Skeletal Mapping.vi"/>
-		<Item Name="Acquire Color Image.vi" Type="VI" URL="../Examples/Acquire Color Image.vi"/>
-		<Item Name="Acquire Depth Image.vi" Type="VI" URL="../Examples/Acquire Depth Image.vi"/>
-		<Item Name="Acquire Infrared Image.vi" Type="VI" URL="../Examples/Acquire Infrared Image.vi"/>
+		<Item Name="Acquire Body Index Image.vi" Type="VI" URL="../../../../examples/LabVIEW Hacker/KinectOne/Acquire Body Index Image.vi"/>
+		<Item Name="Acquire Color Image with Skeletal Mapping.vi" Type="VI" URL="../../../../examples/LabVIEW Hacker/KinectOne/Acquire Color Image with Skeletal Mapping.vi"/>
+		<Item Name="Acquire Color Image.vi" Type="VI" URL="../../../../examples/LabVIEW Hacker/KinectOne/Acquire Color Image.vi"/>
+		<Item Name="Acquire Depth Image.vi" Type="VI" URL="../../../../examples/LabVIEW Hacker/KinectOne/Acquire Depth Image.vi"/>
+		<Item Name="Acquire Infrared Image.vi" Type="VI" URL="../../../../examples/LabVIEW Hacker/KinectOne/Acquire Infrared Image.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Libs" Type="Folder">
-			<Item Name="BodyFrameDataInterface.dll" Type="Document" URL="../Private/Libs/BodyFrameDataInterface.dll"/>
+			<Item Name="BodyFrameDataInterface.dll" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/KinectOne/Private/Libs/BodyFrameDataInterface.dll"/>
 		</Item>
 		<Item Name="Type Defs" Type="Folder">
 			<Item Name="BodyData.ctl" Type="VI" URL="../Private/Type Defs/BodyData.ctl"/>
