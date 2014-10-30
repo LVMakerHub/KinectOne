@@ -21,15 +21,17 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="controls" Type="Folder">
 			<Item Name="BodyData.ctl" Type="VI" URL="../controls/BodyData.ctl"/>
-			<Item Name="ColorFrameDescription.ctl" Type="VI" URL="../controls/ColorFrameDescription.ctl"/>
 			<Item Name="FrameDescription.ctl" Type="VI" URL="../controls/FrameDescription.ctl"/>
+			<Item Name="Joint Position.ctl" Type="VI" URL="../controls/Joint Position.ctl"/>
+			<Item Name="JointType.ctl" Type="VI" URL="../controls/JointType.ctl"/>
 			<Item Name="KinectSensor References.ctl" Type="VI" URL="../controls/KinectSensor References.ctl"/>
 		</Item>
 		<Item Name="examples" Type="Folder">
+			<Item Name="Acquire Body Index Image.vi" Type="VI" URL="../examples/Acquire Body Index Image.vi"/>
+			<Item Name="Acquire Color Image with Skeletal Mapping.vi" Type="VI" URL="../examples/Acquire Color Image with Skeletal Mapping.vi"/>
 			<Item Name="Acquire Color Image.vi" Type="VI" URL="../examples/Acquire Color Image.vi"/>
 			<Item Name="Acquire Depth Image.vi" Type="VI" URL="../examples/Acquire Depth Image.vi"/>
 			<Item Name="Acquire Infrared Image.vi" Type="VI" URL="../examples/Acquire Infrared Image.vi"/>
-			<Item Name="Test.vi" Type="VI" URL="../examples/Test.vi"/>
 		</Item>
 		<Item Name="support" Type="Folder">
 			<Item Name="Byte Array to Pixmap.vi" Type="VI" URL="../support/Byte Array to Pixmap.vi"/>
@@ -41,10 +43,7 @@
 			<Item Name="Draw All Joints.vi" Type="VI" URL="../support/Draw All Joints.vi"/>
 			<Item Name="Draw All Joints_picture.vi" Type="VI" URL="../support/Draw All Joints_picture.vi"/>
 			<Item Name="Draw Body Index Frame.vi" Type="VI" URL="../support/Draw Body Index Frame.vi"/>
-			<Item Name="Draw Body.vi" Type="VI" URL="../support/Draw Body.vi"/>
-			<Item Name="Draw Body_picture.vi" Type="VI" URL="../support/Draw Body_picture.vi"/>
 			<Item Name="Draw Bone.vi" Type="VI" URL="../support/Draw Bone.vi"/>
-			<Item Name="Draw Bone_picture.vi" Type="VI" URL="../support/Draw Bone_picture.vi"/>
 			<Item Name="Draw Color Frame.vi" Type="VI" URL="../support/Draw Color Frame.vi"/>
 			<Item Name="Draw Depth Frame.vi" Type="VI" URL="../support/Draw Depth Frame.vi"/>
 			<Item Name="Draw Infrared Frame.vi" Type="VI" URL="../support/Draw Infrared Frame.vi"/>
@@ -75,11 +74,13 @@
 			<Item Name="kinectRead [DepthFrame].vi" Type="VI" URL="../support/kinectRead [DepthFrame].vi"/>
 			<Item Name="kinectRead [Infrared Frame].vi" Type="VI" URL="../support/kinectRead [Infrared Frame].vi"/>
 			<Item Name="kinectRead [Long Exposure Infrared Frame].vi" Type="VI" URL="../support/kinectRead [Long Exposure Infrared Frame].vi"/>
+			<Item Name="Overlay Bodies.vi" Type="VI" URL="../support/Overlay Bodies.vi"/>
 			<Item Name="Reshape Byte Array.vi" Type="VI" URL="../support/Reshape Byte Array.vi"/>
 			<Item Name="Reshape U16 Array.vi" Type="VI" URL="../support/Reshape U16 Array.vi"/>
+			<Item Name="Set All Joint Positions.vi" Type="VI" URL="../support/Set All Joint Positions.vi"/>
+			<Item Name="Timeout.vi" Type="VI" URL="../support/Timeout.vi"/>
 		</Item>
 		<Item Name="kinectClose.vi" Type="VI" URL="../kinectClose.vi"/>
-		<Item Name="kinectConfigure.vi" Type="VI" URL="../kinectConfigure.vi"/>
 		<Item Name="kinectOpen.vi" Type="VI" URL="../kinectOpen.vi"/>
 		<Item Name="kinectRead.vi" Type="VI" URL="../kinectRead.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -93,8 +94,8 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
 				<Item Name="Draw Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Point.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
@@ -114,12 +115,9 @@
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
 				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
-				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
-				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -132,7 +130,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="BodyFrameDataInterface.dll" Type="Document" URL="../../../../../../../../Users/iknox/Documents/BodyFrameDataInterface/bin/Debug/BodyFrameDataInterface.dll"/>
+			<Item Name="BodyFrameDataInterface.dll" Type="Document" URL="../support/BodyFrameDataInterface.dll"/>
+			<Item Name="Draw Bone_picture.vi" Type="VI" URL="../support/Draw Bone_picture.vi"/>
 			<Item Name="Microsoft.Kinect" Type="Document" URL="Microsoft.Kinect">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
