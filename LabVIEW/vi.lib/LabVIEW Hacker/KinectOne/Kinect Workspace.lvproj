@@ -65,7 +65,9 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Body References FGV.vi" Type="VI" URL="../Private/Body References FGV.vi"/>
 			<Item Name="BodyFrameDataInterface.dll" Type="Document" URL="../Private/Libs/BodyFrameDataInterface.dll"/>
+			<Item Name="Close Body References.vi" Type="VI" URL="../Private/Close Body References.vi"/>
 			<Item Name="Microsoft.Kinect" Type="Document" URL="Microsoft.Kinect">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
