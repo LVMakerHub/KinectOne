@@ -23,7 +23,6 @@
 			<Item Name="KinectSensor References.ctl" Type="VI" URL="../Private/Type Defs/KinectSensor References.ctl"/>
 		</Item>
 		<Item Name="Byte Array to Pixmap.vi" Type="VI" URL="../Private/Byte Array to Pixmap.vi"/>
-		<Item Name="Configuration Data FGV.vi" Type="VI" URL="../Private/Configuration Data FGV.vi"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Private/Constants.vi"/>
 		<Item Name="Convert Byte Array to U32 RGBA Array.vi" Type="VI" URL="../Private/Convert Byte Array to U32 RGBA Array.vi"/>
 		<Item Name="Draw All Bones.vi" Type="VI" URL="../Private/Draw All Bones.vi"/>
@@ -47,6 +46,11 @@
 		<Item Name="Get Body Data.vi" Type="VI" URL="../Private/Get Body Data.vi"/>
 		<Item Name="Get Joint Position.vi" Type="VI" URL="../Private/Get Joint Position.vi"/>
 		<Item Name="Infrared Frame Data FGV.vi" Type="VI" URL="../Private/Infrared Frame Data FGV.vi"/>
+		<Item Name="Initialize Image [Body Index].vi" Type="VI" URL="../Private/Initialize Image [Body Index].vi"/>
+		<Item Name="Initialize Image [Color].vi" Type="VI" URL="../Private/Initialize Image [Color].vi"/>
+		<Item Name="Initialize Image [Depth].vi" Type="VI" URL="../Private/Initialize Image [Depth].vi"/>
+		<Item Name="Initialize Image [Infrared].vi" Type="VI" URL="../Private/Initialize Image [Infrared].vi"/>
+		<Item Name="Initialize Image [LE Infrared].vi" Type="VI" URL="../Private/Initialize Image [LE Infrared].vi"/>
 		<Item Name="Joint Points FGV.vi" Type="VI" URL="../Private/Joint Points FGV.vi"/>
 		<Item Name="kinectRead [BodyFrame].vi" Type="VI" URL="../Private/kinectRead [BodyFrame].vi"/>
 		<Item Name="kinectRead [BodyIndexFrame].vi" Type="VI" URL="../Private/kinectRead [BodyIndexFrame].vi"/>
@@ -66,6 +70,7 @@
 		<Item Name="Draw Depth Frame.vi" Type="VI" URL="../Public/Draw Depth Frame.vi"/>
 		<Item Name="Draw Infrared Frame.vi" Type="VI" URL="../Public/Draw Infrared Frame.vi"/>
 		<Item Name="Draw Long Exposure Infrared Frame.vi" Type="VI" URL="../Public/Draw Long Exposure Infrared Frame.vi"/>
+		<Item Name="Initialize Image.vi" Type="VI" URL="../Public/Initialize Image.vi"/>
 		<Item Name="Open.vi" Type="VI" URL="../Public/Open.vi"/>
 		<Item Name="Overlay Bodies.vi" Type="VI" URL="../Public/Overlay Bodies.vi"/>
 		<Item Name="Read.vi" Type="VI" URL="../Public/Read.vi"/>

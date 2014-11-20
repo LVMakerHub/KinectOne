@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-10-30 12:02:32" Modified_Date="2014-10-30 12:09:22" Creator="iknox" Comments="" ID="fc8913f86eb4b6e812e416eda8a30682">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-10-30 12:02:32" Modified_Date="2014-11-14 13:20:18" Creator="iknox" Comments="" ID="2ec1f9518dd53d1b02d498430582c7b5">
   <Library_General_Settings>
     <Package_File_Name>LVH_KinectOne</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds\KinectOne</Library_Output_Folder>
@@ -130,9 +130,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\NI_EULA.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
