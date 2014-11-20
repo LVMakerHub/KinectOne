@@ -11,16 +11,27 @@
 		<Item Name="Acquire Depth Image.vi" Type="VI" URL="../../../../examples/LabVIEW Hacker/KinectOne/Acquire Depth Image.vi"/>
 		<Item Name="Acquire Infrared Image.vi" Type="VI" URL="../../../../examples/LabVIEW Hacker/KinectOne/Acquire Infrared Image.vi"/>
 	</Item>
+	<Item Name="Help" Type="Folder">
+		<Item Name="Forums.vi" Type="VI" URL="../../../../help/LabVIEW Hacker/KinectOne/Forums.vi"/>
+		<Item Name="Getting Started.vi" Type="VI" URL="../../../../help/LabVIEW Hacker/KinectOne/Getting Started.vi"/>
+	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Libs" Type="Folder">
 			<Item Name="BodyFrameDataInterface.dll" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/KinectOne/Private/Libs/BodyFrameDataInterface.dll"/>
 		</Item>
 		<Item Name="Type Defs" Type="Folder">
 			<Item Name="BodyData.ctl" Type="VI" URL="../Private/Type Defs/BodyData.ctl"/>
+			<Item Name="ClippedEdges.ctl" Type="VI" URL="../Private/Type Defs/ClippedEdges.ctl"/>
+			<Item Name="Enabled Frames.ctl" Type="VI" URL="../Private/Type Defs/Enabled Frames.ctl"/>
 			<Item Name="FrameDescription.ctl" Type="VI" URL="../Private/Type Defs/FrameDescription.ctl"/>
+			<Item Name="HandLeftConfidence.ctl" Type="VI" URL="../Private/Type Defs/HandLeftConfidence.ctl"/>
+			<Item Name="HandLeftState.ctl" Type="VI" URL="../Private/Type Defs/HandLeftState.ctl"/>
+			<Item Name="HandRightConfidence.ctl" Type="VI" URL="../Private/Type Defs/HandRightConfidence.ctl"/>
+			<Item Name="HandRightState.ctl" Type="VI" URL="../Private/Type Defs/HandRightState.ctl"/>
 			<Item Name="Joint Position.ctl" Type="VI" URL="../Private/Type Defs/Joint Position.ctl"/>
 			<Item Name="JointType.ctl" Type="VI" URL="../Private/Type Defs/JointType.ctl"/>
 			<Item Name="KinectSensor References.ctl" Type="VI" URL="../Private/Type Defs/KinectSensor References.ctl"/>
+			<Item Name="LeanTrackingState.ctl" Type="VI" URL="../Private/Type Defs/LeanTrackingState.ctl"/>
 		</Item>
 		<Item Name="Byte Array to Pixmap.vi" Type="VI" URL="../Private/Byte Array to Pixmap.vi"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Private/Constants.vi"/>
