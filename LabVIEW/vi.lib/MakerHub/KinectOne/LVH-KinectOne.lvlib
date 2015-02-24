@@ -4,87 +4,87 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Examples" Type="Folder">
-		<Item Name="Acquire Body Index Image.vi" Type="VI" URL="../../../../examples/LabVIEW Hacker/KinectOne/Acquire Body Index Image.vi"/>
-		<Item Name="Acquire Color Image with Skeletal Mapping.vi" Type="VI" URL="../../../../examples/LabVIEW Hacker/KinectOne/Acquire Color Image with Skeletal Mapping.vi"/>
-		<Item Name="Acquire Color Image.vi" Type="VI" URL="../../../../examples/LabVIEW Hacker/KinectOne/Acquire Color Image.vi"/>
-		<Item Name="Acquire Depth Image.vi" Type="VI" URL="../../../../examples/LabVIEW Hacker/KinectOne/Acquire Depth Image.vi"/>
-		<Item Name="Acquire Infrared Image.vi" Type="VI" URL="../../../../examples/LabVIEW Hacker/KinectOne/Acquire Infrared Image.vi"/>
+		<Item Name="Acquire Body Index Image.vi" Type="VI" URL="../../../../examples/MakerHub/KinectOne/Acquire Body Index Image.vi"/>
+		<Item Name="Acquire Color Image with Skeletal Mapping.vi" Type="VI" URL="../../../../examples/MakerHub/KinectOne/Acquire Color Image with Skeletal Mapping.vi"/>
+		<Item Name="Acquire Color Image.vi" Type="VI" URL="../../../../examples/MakerHub/KinectOne/Acquire Color Image.vi"/>
+		<Item Name="Acquire Depth Image.vi" Type="VI" URL="../../../../examples/MakerHub/KinectOne/Acquire Depth Image.vi"/>
+		<Item Name="Acquire Infrared Image.vi" Type="VI" URL="../../../../examples/MakerHub/KinectOne/Acquire Infrared Image.vi"/>
 	</Item>
 	<Item Name="Help" Type="Folder">
-		<Item Name="Forums.vi" Type="VI" URL="../../../../help/LabVIEW Hacker/KinectOne/Forums.vi"/>
-		<Item Name="Getting Started.vi" Type="VI" URL="../../../../help/LabVIEW Hacker/KinectOne/Getting Started.vi"/>
+		<Item Name="Forums.vi" Type="VI" URL="/&lt;helpdir&gt;/MakerHub/KinectOne/Forums.vi"/>
+		<Item Name="Getting Started.vi" Type="VI" URL="/&lt;helpdir&gt;/MakerHub/KinectOne/Getting Started.vi"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Libs" Type="Folder">
 			<Item Name="BodyFrameDataInterface.dll" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/KinectOne/Private/Libs/BodyFrameDataInterface.dll"/>
 		</Item>
 		<Item Name="Type Defs" Type="Folder">
-			<Item Name="BodyData.ctl" Type="VI" URL="../Private/Type Defs/BodyData.ctl"/>
-			<Item Name="ClippedEdges.ctl" Type="VI" URL="../Private/Type Defs/ClippedEdges.ctl"/>
-			<Item Name="Enabled Frames.ctl" Type="VI" URL="../Private/Type Defs/Enabled Frames.ctl"/>
-			<Item Name="FrameDescription.ctl" Type="VI" URL="../Private/Type Defs/FrameDescription.ctl"/>
-			<Item Name="HandLeftConfidence.ctl" Type="VI" URL="../Private/Type Defs/HandLeftConfidence.ctl"/>
-			<Item Name="HandLeftState.ctl" Type="VI" URL="../Private/Type Defs/HandLeftState.ctl"/>
-			<Item Name="HandRightConfidence.ctl" Type="VI" URL="../Private/Type Defs/HandRightConfidence.ctl"/>
-			<Item Name="HandRightState.ctl" Type="VI" URL="../Private/Type Defs/HandRightState.ctl"/>
-			<Item Name="Joint Position.ctl" Type="VI" URL="../Private/Type Defs/Joint Position.ctl"/>
-			<Item Name="JointType.ctl" Type="VI" URL="../Private/Type Defs/JointType.ctl"/>
-			<Item Name="KinectSensor References.ctl" Type="VI" URL="../Private/Type Defs/KinectSensor References.ctl"/>
-			<Item Name="LeanTrackingState.ctl" Type="VI" URL="../Private/Type Defs/LeanTrackingState.ctl"/>
+			<Item Name="BodyData.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Type Defs/BodyData.ctl"/>
+			<Item Name="ClippedEdges.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Type Defs/ClippedEdges.ctl"/>
+			<Item Name="Enabled Frames.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Type Defs/Enabled Frames.ctl"/>
+			<Item Name="FrameDescription.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Type Defs/FrameDescription.ctl"/>
+			<Item Name="HandLeftConfidence.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Type Defs/HandLeftConfidence.ctl"/>
+			<Item Name="HandLeftState.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Type Defs/HandLeftState.ctl"/>
+			<Item Name="HandRightConfidence.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Type Defs/HandRightConfidence.ctl"/>
+			<Item Name="HandRightState.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Type Defs/HandRightState.ctl"/>
+			<Item Name="Joint Position.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Type Defs/Joint Position.ctl"/>
+			<Item Name="JointType.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Type Defs/JointType.ctl"/>
+			<Item Name="KinectSensor References.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Type Defs/KinectSensor References.ctl"/>
+			<Item Name="LeanTrackingState.ctl" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Type Defs/LeanTrackingState.ctl"/>
 		</Item>
-		<Item Name="Body References FGV.vi" Type="VI" URL="../Private/Body References FGV.vi"/>
-		<Item Name="Byte Array to Pixmap.vi" Type="VI" URL="../Private/Byte Array to Pixmap.vi"/>
-		<Item Name="Close Body References.vi" Type="VI" URL="../Private/Close Body References.vi"/>
-		<Item Name="Constants.vi" Type="VI" URL="../Private/Constants.vi"/>
-		<Item Name="Convert Byte Array to U32 RGBA Array.vi" Type="VI" URL="../Private/Convert Byte Array to U32 RGBA Array.vi"/>
-		<Item Name="Draw All Bones.vi" Type="VI" URL="../Private/Draw All Bones.vi"/>
-		<Item Name="Draw All Joints.vi" Type="VI" URL="../Private/Draw All Joints.vi"/>
-		<Item Name="Draw Bone.vi" Type="VI" URL="../Private/Draw Bone.vi"/>
-		<Item Name="Draw Joint.vi" Type="VI" URL="../Private/Draw Joint.vi"/>
-		<Item Name="Extract MultiSourceFrame Data.vi" Type="VI" URL="../Private/Extract MultiSourceFrame Data.vi"/>
-		<Item Name="Frame Data FGV [Body Index].vi" Type="VI" URL="../Private/Frame Data FGV [Body Index].vi"/>
-		<Item Name="Frame Data FGV [Color].vi" Type="VI" URL="../Private/Frame Data FGV [Color].vi"/>
-		<Item Name="Frame Data FGV [Depth].vi" Type="VI" URL="../Private/Frame Data FGV [Depth].vi"/>
-		<Item Name="Frame Data FGV [Infrared].vi" Type="VI" URL="../Private/Frame Data FGV [Infrared].vi"/>
-		<Item Name="Frame Data FGV [Long Exposure Infrared].vi" Type="VI" URL="../Private/Frame Data FGV [Long Exposure Infrared].vi"/>
-		<Item Name="Frame Data FGV.vi" Type="VI" URL="../Private/Frame Data FGV.vi"/>
-		<Item Name="Frame Description FGV [Body Index].vi" Type="VI" URL="../Private/Frame Description FGV [Body Index].vi"/>
-		<Item Name="Frame Description FGV [Color].vi" Type="VI" URL="../Private/Frame Description FGV [Color].vi"/>
-		<Item Name="Frame Description FGV [Depth].vi" Type="VI" URL="../Private/Frame Description FGV [Depth].vi"/>
-		<Item Name="Frame Description FGV [Infrared].vi" Type="VI" URL="../Private/Frame Description FGV [Infrared].vi"/>
-		<Item Name="Frame Description FGV [Long Exposure Infrared].vi" Type="VI" URL="../Private/Frame Description FGV [Long Exposure Infrared].vi"/>
-		<Item Name="Frame Description FGV.vi" Type="VI" URL="../Private/Frame Description FGV.vi"/>
-		<Item Name="Get All Joint Positions.vi" Type="VI" URL="../Private/Get All Joint Positions.vi"/>
-		<Item Name="Get Body Data.vi" Type="VI" URL="../Private/Get Body Data.vi"/>
-		<Item Name="Get Joint Position.vi" Type="VI" URL="../Private/Get Joint Position.vi"/>
-		<Item Name="Infrared Frame Data FGV.vi" Type="VI" URL="../Private/Infrared Frame Data FGV.vi"/>
-		<Item Name="Initialize Image [Body Index].vi" Type="VI" URL="../Private/Initialize Image [Body Index].vi"/>
-		<Item Name="Initialize Image [Color].vi" Type="VI" URL="../Private/Initialize Image [Color].vi"/>
-		<Item Name="Initialize Image [Depth].vi" Type="VI" URL="../Private/Initialize Image [Depth].vi"/>
-		<Item Name="Initialize Image [Infrared].vi" Type="VI" URL="../Private/Initialize Image [Infrared].vi"/>
-		<Item Name="Initialize Image [LE Infrared].vi" Type="VI" URL="../Private/Initialize Image [LE Infrared].vi"/>
-		<Item Name="Joint Points FGV.vi" Type="VI" URL="../Private/Joint Points FGV.vi"/>
-		<Item Name="kinectRead [BodyFrame].vi" Type="VI" URL="../Private/kinectRead [BodyFrame].vi"/>
-		<Item Name="kinectRead [BodyIndexFrame].vi" Type="VI" URL="../Private/kinectRead [BodyIndexFrame].vi"/>
-		<Item Name="kinectRead [ColorFrame].vi" Type="VI" URL="../Private/kinectRead [ColorFrame].vi"/>
-		<Item Name="kinectRead [DepthFrame].vi" Type="VI" URL="../Private/kinectRead [DepthFrame].vi"/>
-		<Item Name="kinectRead [Infrared Frame].vi" Type="VI" URL="../Private/kinectRead [Infrared Frame].vi"/>
-		<Item Name="kinectRead [Long Exposure Infrared Frame].vi" Type="VI" URL="../Private/kinectRead [Long Exposure Infrared Frame].vi"/>
-		<Item Name="Reshape Byte Array.vi" Type="VI" URL="../Private/Reshape Byte Array.vi"/>
-		<Item Name="Reshape U16 Array.vi" Type="VI" URL="../Private/Reshape U16 Array.vi"/>
-		<Item Name="Set All Joint Positions.vi" Type="VI" URL="../Private/Set All Joint Positions.vi"/>
-		<Item Name="Timeout.vi" Type="VI" URL="../Private/Timeout.vi"/>
+		<Item Name="Body References FGV.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Body References FGV.vi"/>
+		<Item Name="Byte Array to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Byte Array to Pixmap.vi"/>
+		<Item Name="Close Body References.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Close Body References.vi"/>
+		<Item Name="Constants.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Constants.vi"/>
+		<Item Name="Convert Byte Array to U32 RGBA Array.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Convert Byte Array to U32 RGBA Array.vi"/>
+		<Item Name="Draw All Bones.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Draw All Bones.vi"/>
+		<Item Name="Draw All Joints.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Draw All Joints.vi"/>
+		<Item Name="Draw Bone.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Draw Bone.vi"/>
+		<Item Name="Draw Joint.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Draw Joint.vi"/>
+		<Item Name="Extract MultiSourceFrame Data.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Extract MultiSourceFrame Data.vi"/>
+		<Item Name="Frame Data FGV [Body Index].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Frame Data FGV [Body Index].vi"/>
+		<Item Name="Frame Data FGV [Color].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Frame Data FGV [Color].vi"/>
+		<Item Name="Frame Data FGV [Depth].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Frame Data FGV [Depth].vi"/>
+		<Item Name="Frame Data FGV [Infrared].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Frame Data FGV [Infrared].vi"/>
+		<Item Name="Frame Data FGV [Long Exposure Infrared].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Frame Data FGV [Long Exposure Infrared].vi"/>
+		<Item Name="Frame Data FGV.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Frame Data FGV.vi"/>
+		<Item Name="Frame Description FGV [Body Index].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Frame Description FGV [Body Index].vi"/>
+		<Item Name="Frame Description FGV [Color].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Frame Description FGV [Color].vi"/>
+		<Item Name="Frame Description FGV [Depth].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Frame Description FGV [Depth].vi"/>
+		<Item Name="Frame Description FGV [Infrared].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Frame Description FGV [Infrared].vi"/>
+		<Item Name="Frame Description FGV [Long Exposure Infrared].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Frame Description FGV [Long Exposure Infrared].vi"/>
+		<Item Name="Frame Description FGV.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Frame Description FGV.vi"/>
+		<Item Name="Get All Joint Positions.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Get All Joint Positions.vi"/>
+		<Item Name="Get Body Data.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Get Body Data.vi"/>
+		<Item Name="Get Joint Position.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Get Joint Position.vi"/>
+		<Item Name="Infrared Frame Data FGV.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Infrared Frame Data FGV.vi"/>
+		<Item Name="Initialize Image [Body Index].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Initialize Image [Body Index].vi"/>
+		<Item Name="Initialize Image [Color].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Initialize Image [Color].vi"/>
+		<Item Name="Initialize Image [Depth].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Initialize Image [Depth].vi"/>
+		<Item Name="Initialize Image [Infrared].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Initialize Image [Infrared].vi"/>
+		<Item Name="Initialize Image [LE Infrared].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Initialize Image [LE Infrared].vi"/>
+		<Item Name="Joint Points FGV.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Joint Points FGV.vi"/>
+		<Item Name="kinectRead [BodyFrame].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/kinectRead [BodyFrame].vi"/>
+		<Item Name="kinectRead [BodyIndexFrame].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/kinectRead [BodyIndexFrame].vi"/>
+		<Item Name="kinectRead [ColorFrame].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/kinectRead [ColorFrame].vi"/>
+		<Item Name="kinectRead [DepthFrame].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/kinectRead [DepthFrame].vi"/>
+		<Item Name="kinectRead [Infrared Frame].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/kinectRead [Infrared Frame].vi"/>
+		<Item Name="kinectRead [Long Exposure Infrared Frame].vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/kinectRead [Long Exposure Infrared Frame].vi"/>
+		<Item Name="Reshape Byte Array.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Reshape Byte Array.vi"/>
+		<Item Name="Reshape U16 Array.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Reshape U16 Array.vi"/>
+		<Item Name="Set All Joint Positions.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Set All Joint Positions.vi"/>
+		<Item Name="Timeout.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Private/Timeout.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
-		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
-		<Item Name="Draw Body Index Frame.vi" Type="VI" URL="../Public/Draw Body Index Frame.vi"/>
-		<Item Name="Draw Color Frame.vi" Type="VI" URL="../Public/Draw Color Frame.vi"/>
-		<Item Name="Draw Depth Frame.vi" Type="VI" URL="../Public/Draw Depth Frame.vi"/>
-		<Item Name="Draw Infrared Frame.vi" Type="VI" URL="../Public/Draw Infrared Frame.vi"/>
-		<Item Name="Draw Long Exposure Infrared Frame.vi" Type="VI" URL="../Public/Draw Long Exposure Infrared Frame.vi"/>
-		<Item Name="Initialize Image.vi" Type="VI" URL="../Public/Initialize Image.vi"/>
-		<Item Name="Open.vi" Type="VI" URL="../Public/Open.vi"/>
-		<Item Name="Overlay Bodies.vi" Type="VI" URL="../Public/Overlay Bodies.vi"/>
-		<Item Name="Read.vi" Type="VI" URL="../Public/Read.vi"/>
+		<Item Name="Close.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Public/Close.vi"/>
+		<Item Name="Draw Body Index Frame.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Public/Draw Body Index Frame.vi"/>
+		<Item Name="Draw Color Frame.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Public/Draw Color Frame.vi"/>
+		<Item Name="Draw Depth Frame.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Public/Draw Depth Frame.vi"/>
+		<Item Name="Draw Infrared Frame.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Public/Draw Infrared Frame.vi"/>
+		<Item Name="Draw Long Exposure Infrared Frame.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Public/Draw Long Exposure Infrared Frame.vi"/>
+		<Item Name="Initialize Image.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Public/Initialize Image.vi"/>
+		<Item Name="Open.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Public/Open.vi"/>
+		<Item Name="Overlay Bodies.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Public/Overlay Bodies.vi"/>
+		<Item Name="Read.vi" Type="VI" URL="/&lt;vilib&gt;/MakerHub/KinectOne/Public/Read.vi"/>
 	</Item>
 </Library>
