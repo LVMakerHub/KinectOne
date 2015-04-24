@@ -9,6 +9,8 @@
 		<Item Name="Acquire Color Image.vi" Type="VI" URL="../../../../examples/MakerHub/KinectOne/Acquire Color Image.vi"/>
 		<Item Name="Acquire Depth Image.vi" Type="VI" URL="../../../../examples/MakerHub/KinectOne/Acquire Depth Image.vi"/>
 		<Item Name="Acquire Infrared Image.vi" Type="VI" URL="../../../../examples/MakerHub/KinectOne/Acquire Infrared Image.vi"/>
+		<Item Name="Acquire Joint Positions.vi" Type="VI" URL="../../../../examples/MakerHub/KinectOne/Acquire Joint Positions.vi"/>
+		<Item Name="Calculate Bone Vectors.vi" Type="VI" URL="../../../../examples/MakerHub/KinectOne/Calculate Bone Vectors.vi"/>
 	</Item>
 	<Item Name="Help" Type="Folder">
 		<Item Name="Forums.vi" Type="VI" URL="../../../../help/MakerHub/KinectOne/Forums.vi"/>
@@ -21,6 +23,7 @@
 		<Item Name="Type Defs" Type="Folder">
 			<Item Name="BodyData.ctl" Type="VI" URL="../Private/Type Defs/BodyData.ctl"/>
 			<Item Name="ClippedEdges.ctl" Type="VI" URL="../Private/Type Defs/ClippedEdges.ctl"/>
+			<Item Name="Coordinate Space.ctl" Type="VI" URL="../Private/Type Defs/Coordinate Space.ctl"/>
 			<Item Name="Enabled Frames.ctl" Type="VI" URL="../Private/Type Defs/Enabled Frames.ctl"/>
 			<Item Name="FrameDescription.ctl" Type="VI" URL="../Private/Type Defs/FrameDescription.ctl"/>
 			<Item Name="HandLeftConfidence.ctl" Type="VI" URL="../Private/Type Defs/HandLeftConfidence.ctl"/>
@@ -31,6 +34,7 @@
 			<Item Name="JointType.ctl" Type="VI" URL="../Private/Type Defs/JointType.ctl"/>
 			<Item Name="KinectSensor References.ctl" Type="VI" URL="../Private/Type Defs/KinectSensor References.ctl"/>
 			<Item Name="LeanTrackingState.ctl" Type="VI" URL="../Private/Type Defs/LeanTrackingState.ctl"/>
+			<Item Name="Tracking State.ctl" Type="VI" URL="../Private/Type Defs/Tracking State.ctl"/>
 		</Item>
 		<Item Name="Body References FGV.vi" Type="VI" URL="../Private/Body References FGV.vi"/>
 		<Item Name="Byte Array to Pixmap.vi" Type="VI" URL="../Private/Byte Array to Pixmap.vi"/>
@@ -76,6 +80,9 @@
 		<Item Name="Timeout.vi" Type="VI" URL="../Private/Timeout.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Calculate Joint Vectors.vi" Type="VI" URL="../Public/Utilities/Calculate Joint Vectors.vi"/>
+		</Item>
 		<Item Name="Close.vi" Type="VI" URL="../Public/Close.vi"/>
 		<Item Name="Draw Body Index Frame.vi" Type="VI" URL="../Public/Draw Body Index Frame.vi"/>
 		<Item Name="Draw Color Frame.vi" Type="VI" URL="../Public/Draw Color Frame.vi"/>
@@ -85,6 +92,7 @@
 		<Item Name="Initialize Image.vi" Type="VI" URL="../Public/Initialize Image.vi"/>
 		<Item Name="Open.vi" Type="VI" URL="../Public/Open.vi"/>
 		<Item Name="Overlay Bodies.vi" Type="VI" URL="../Public/Overlay Bodies.vi"/>
+		<Item Name="Read Joint Position.vi" Type="VI" URL="../Public/Read Joint Position.vi"/>
 		<Item Name="Read.vi" Type="VI" URL="../Public/Read.vi"/>
 	</Item>
 </Library>
